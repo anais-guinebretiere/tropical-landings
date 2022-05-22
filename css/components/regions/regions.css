@@ -1,0 +1,19 @@
+.world-regions {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    color: black;
+    background: white;
+}
+
+.world-regions h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+}

@@ -1,0 +1,34 @@
+.section-divider, .section-divider2 {
+    position: relative;
+}
+.section-divider:before {
+    font-family: 'codepen';
+    content: ""; 
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: -1.50rem;
+    left: calc(50% - 3.25rem);
+    color: rgba(#2980b9, 0.5);
+    line-height: 6rem;
+    text-indent: 1.75rem;
+    font-size: 3rem;
+}
+
+.section-divider2:before {
+    font-family: 'codepen';
+    content: ""; 
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: -5.00rem;
+    left: calc(50% - 3.25rem);
+    color: rgba(#0cb9c2, 0.5);
+    line-height: 6rem;
+    text-indent: 1.75rem;
+    font-size: 3rem;
+}

@@ -1,0 +1,14 @@
+.top-menu {
+    text-align: right;
+}
+
+.top-menu a {
+    margin-left: 18px;
+}
+
+@media (max-width: 768px) {
+    .top-menu {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

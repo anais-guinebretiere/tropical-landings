@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/top-banner/banner.css");
+@import url("components/top-banner/button.css");
+@import url("components/top-menu/menu.css");
+@import url("components/regions/regions.css");
+@import url("components/divider/divider.css");
+@import url("components/card-container/container.css");
+@import url("components/card-container/cards.css");
+@import url("components/section-buttons/buttons.css");
+@import url("components/travel-insurance/style.css");
+@import url("components/palaces/palaces.css");
+@import url("components/video/style.css");
+@import url("components/feedback/feedback.css");
+@import url("components/ceo/ceo.css");
+@import url("components/ceo/avatar.css");
+@import url("components/newsletter/style.css");
+@import url("components/footer/style.css");
+/* General style rules for fonts and colors */
+*{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  outline: none;
+}
+
+html, body {
+  margin:0;
+  padding:0;
+  height: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: white;
+  background: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:not(.card):hover {
+  border-bottom: 1px dotted white;
+}
+
+/*
+    styles du conteneur principal site
+    . Pas de marges
+    . marge top et bottom à 0, left et right à 100px
+    . Tout dépassement des limites de l'élément sera caché.
+*/
+#site-container {
+  margin: 0;
+  padding: 0 100px;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  max-width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

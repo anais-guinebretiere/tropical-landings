@@ -1,0 +1,59 @@
+.travel-insurance {
+    /* Transparent gradient above */
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%), url(../../../images/background3.jpg);   
+  /* 2. Make the background image cover the banner div */
+  background-size: cover;     
+  /* 3. Center the image */
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.panel {
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #ffffffbb;
+    width: 550px;
+    max-width: 100%;
+}
+
+.panel h2{
+    text-align: center;
+    color: #000;
+    font-weight: lighter;
+}
+
+.allianz-logo img {
+    width: 100%;
+}
+
+.insurance-details {
+    margin: 20px 0 0 0;
+    padding: 0;
+    color: #000;
+}
+
+.insurance-details img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.insurance-details .detail {
+    margin: 0 0 15px 0;
+}
+
+.bold-blue {
+    text-transform: uppercase;
+    color: rgb(25, 25, 155);
+    font-weight: 600;
+}

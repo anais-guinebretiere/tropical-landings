@@ -1,0 +1,41 @@
+.ceo {
+    margin: 0;
+    padding: 0 0 90px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    color: black;
+    background: white;
+}
+
+.ceo h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.profile-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap-reverse;
+}
+
+.profile-text, .profile-img {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    opacity: 0.8;
+}
